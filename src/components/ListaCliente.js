@@ -37,7 +37,7 @@ class ListaCliente extends React.Component{
     
 
     renderTabela(){
-        return <Table striped bordered hover size="table caption-top bg-white rounded mt-2  sm m-3 px-3  ">
+        return <Table striped bordered hover size="table caption-top bg-white rounded mt-2  sm m-2  ">
                 <thead>
                    <tr> 
                     <th>ID</th>

@@ -18,14 +18,13 @@ function App() {
   return (
     <div className=" d-flex container-fluid bg-dark min-vh-100 ">
 <BrowserRouter>
-    { toggle && <div className='col-4 col-md-2 bg-white position-fixed '>
+    { toggle && <div className='col-2 col-md-2 bg-white position-fixed '>
      <Sidebar/>
      </div>}
-     { toggle && <div className='col-4 col-md-2'></div>}
+     { toggle && <div className='col-2 col-md-2'></div>}
                 <div className='col'>
                   <Home Toggle={Toggle} />
                   <Routes>
-                  <Route path='/' index element={<Home />}></Route>
                   <Route path='/CadastroCliente' index element={<CadastroCliente />}></Route>
                   <Route path='/CadastroEndereso' index element={<CadastroEndereso />}></Route>
                   <Route path='/ListaCliente' index element={<ListaCliente />}></Route>

@@ -120,7 +120,7 @@ class CadastroEndereso extends React.Component{
                         <td>{endereço.cep}</td>
                        
                         <td>
-                        <Button variant="success me-3 bi bi-pencil-square" onClick={()=> this.carregarDados(endereço.id)}></Button>
+                        <Button variant="success me-2 bi bi-pencil-square" onClick={()=> this.carregarDados(endereço.id)}></Button>
                         <Button variant="danger bi bi-trash3-fill " onClick={()=> this.deletarEndereço(endereço.id)}></Button></td>
                     </tr>
                         )
